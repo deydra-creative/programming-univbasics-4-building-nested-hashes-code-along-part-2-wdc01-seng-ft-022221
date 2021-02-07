@@ -22,9 +22,6 @@ def update_status
 epic_tragedy[:montague][:hero][:status] = "dead"
 epic_tragedy[:capulet][:heroine][:status] = "dead"
   
-   epic_tragedy
-   
- end
 
 epic_tragedy[:additional_characters] = []
 prince = {name: "Prince Escalus"}
@@ -32,4 +29,6 @@ apothecary = {name: "Apothecary"}
 epic_tragedy[:additional_characters] << prince
 epic_tragedy[:additional_characters] << apothecary
 
-end
+epic_tragedy
+   
+ end
