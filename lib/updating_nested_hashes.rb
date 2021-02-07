@@ -55,4 +55,3 @@ def add_characters
 update_status[:montague][:hero][:status] = "dead"
 update_status[:capulet][:heroine][:status] = "dead"
 end
-end
